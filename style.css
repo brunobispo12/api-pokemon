@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: linear-gradient(to left, #cb2d3e, #ef473a);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pokedex{
+    position: relative;
+}
+
+.pokedeximg img{
+    height: 550px;
+}
+
+.image{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    left: 20.5%;
+    top: 37%;
+}
+
+.desc{
+    position: absolute;
+    left: 61%;
+    top: 35.5%;
+    color: #fff;
+    font-family: monospace;
+    font-size: 1.1rem;
+}
+
+.desc p{
+    padding-top: 5px;
+    font-size: 1rem;
+}
+
+.input{
+    position: absolute;
+    left: 60%;
+    top: 80.5%;
+}
+
+.input input{
+    height: 39px;
+
+    border-radius: 5px;
+    background-color: black;
+    color: #fff;
+}
+
+.input input:focus{
+    outline: none;
+}
+
+button{
+    height: 43px;
+    width: 60px;
+    border-radius: 5px;
+}
